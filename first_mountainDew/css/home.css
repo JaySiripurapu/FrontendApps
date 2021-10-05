@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin-top: 0%;
+}
+/* style for top */
+.top{
+    background: url("../images/home.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width:100vw;
+
+}
+nav{
+    background-image: linear-gradient(135deg, #6b7686 0%, #737a86 100%);
+    width: 100vw;
+    height: 10vh;
+    font-size: 5vh;
+    display: flex;
+    
+    justify-content: space-evenly;
+    color: black;
+    padding-top: 2vh;
+}
+
+
+nav a{
+    list-style: none;
+    display: inline-block;    
+}
+nav a:hover{
+    background-color: white;
+}
+nav a{
+   text-decoration: none;
+   color: black
+}
+@media screen  and (max-width: 800px){
+   .top{
+    height: 50vh;
+     
+   }
+}
+/* style for products */
+.products{
+    width: 100vw;
+    height: 70vh;
+    background-image: linear-gradient(to right, #181717 0%, #bbc1bf 19%, #11d32b 42%, #c2beca 79%, #101111 100%);
+    text-align: center;
+    position: relative;
+    top:0%;
+}
+
+.products img{
+    height: 50vh;
+    width: 50vw;
+    
+}
+.products input{
+    position: absolute;
+    margin-top:25vh ;
+    background-color:white ;
+    opacity: 70%;
+    border-color: transparent;
+    border-radius: 10%;
+    
+}
+.products input[value^=">"]{
+   left:73vw;
+}
+
+@media screen  and (max-width: 1000px)
+{
+    .products input[value^=">"]{
+        left:72vw;
+     }
+}
+
+@media screen  and (max-width: 606px) {
+    .products img{
+        width: 100vw;
+    }
+    .products input[value^=">"]{
+        left:92vw;
+     }
+     nav{
+         flex-direction: column;
+         height: auto
+         
+     }
+     nav a{
+         width:100vw;
+         padding-left: 38vw;
+        
+     }
+     nav span{
+        
+        padding-left: 25vw;
+       
+    }
+}
+
+/* footer */
+footer{
+    background-color: rgb(83, 79, 79);
+    height: 50vh;
+    width: 100vw;
+    text-align: center;
+    padding-top: 20vh;
+    font-size: 5vh;
+}

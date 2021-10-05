@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+main{
+    width: 100%;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.section1{
+    height: auto;
+    background: linear-gradient(100.72deg, #122E99 -12.83%, #2370C8 104.22%);
+    display: flex;
+    color: #FFFFFF;
+    flex-direction: column;
+    position: relative;
+    
+}
+.section1 .header{
+   
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.section1 .header h3 button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 4vh;
+}
+.section1 .header h3 a{
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-size: 4vh;
+}
+
+
+.section1 .header ul{
+    
+    font-size: 2.5vh;
+    padding: 1vh 0vw;
+    
+    display: flex;
+    
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.section1 .header ul li{
+    list-style: none;
+    padding:0vh 1vw;
+    font-weight: 500;
+    
+}
+.section1 .header ul li a{
+    color: white;
+    text-decoration: none;
+}
+.section1 .header ul li a:hover{
+    color: greenyellow;
+    text-decoration: underline;
+}
+.fa-search{
+    position: relative;
+    right:30px;
+    color: #4995ec;
+
+}
+button{
+    cursor: pointer;
+}
+.section1 .header input{
+    border: transparent;
+    outline: none;
+    border-radius: 30px;
+    height: 5vh;
+    padding: 0vh .5vw;
+}
+
+
+.section1 .header input::placeholder{
+    color: #4995ec;
+    
+    padding: 0vh .5vw;
+}
+/* finished stying header */
+.section1 .content{
+    position: relative;
+    max-height:30vh;
+    width: 27vw;
+    top:10vh;
+    left:12vw;
+    padding-bottom: 35vh;
+}
+.content>h2,.content>div{
+    margin: 1.5vh 0;
+}
+
+.section1 .content h2{
+    
+    font-size: 43px;
+}
+.section1 .content div{
+    font-size: 15px;
+}
+.section1 .content button{
+    background-color: #2370C8;
+    color: white;
+    border-radius: 30px;
+    border: transparent;
+    font-weight: 700;
+    padding: 1.5vh 2vw;
+    margin-top: 1vh;
+}
+.section1 .content button:hover{
+ background-color: blue;
+}
+/* finished secion 1 */
+
+.section2{
+    height: auto;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+    font-weight: 500;
+}
+.section2>p{
+    color: #2370C8;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section2>h2{
+    color: #262A4E;
+    font-size: 30px;
+    padding:2vh 0vw;
+   text-align: center;
+}
+.section2>h2.buttons{
+    padding: 0;
+}
+.section2>h2.buttons span{
+    margin: 20px;
+}
+
+.section2>h2 button{
+    border: 1.5px solid #898989;
+    background-color: #E0E0E0;
+    color: white;
+    border-color: transparent;
+    font-size:20px;
+    padding:2px 5px;
+    border-radius: 100%;
+}
+.section2>h2 button:hover{
+    background-color: #2370C8;
+}
+.section2 div{
+    display: flex;
+    justify-content: center;
+    padding: 5vh 0vw;
+}
+.section2 div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.section2 .first div p{
+    padding: 10px ;
+}
+.section2 .first div{
+    width:20%;
+    height: 40%;
+    border: transparent;
+    background-color: #E5F3FE;
+    margin:0vh 2vw;
+    padding: 25px 25px;    
+    
+}
+.section2 .first div *{
+    padding: 1vh 0vw;
+}
+.section2 .first div h3{
+    font-size: 20px;
+}
+
+.section2 .first div eclipse,eclipse{
+    height: 10px;
+    width: 10px;
+    padding: 20px;
+    border-radius: 100%;
+    background-color: #b0cee6;
+}
+
+
+.section2 .second div{
+    width: 30vw;
+    margin: 0vh 1vw;
+}
+
+.section2 .second div.one{
+    background-color: #2370C8;
+    color: white;
+    
+}
+.section2 .second div h3,h2,p,li,button{
+    padding: 0.5vh 0vw;
+}
+.section2 .second div.one ul{
+    list-style: none;
+}
+.section2 .second div.one button{
+    color: #2370C8;
+    background-color: white;
+    border-radius: 30px;
+    padding: .8vh 1vw;
+    border: none;
+    margin-top: 2vh;
+}
+.section2 .second div.two{
+    align-items: flex-start;
+    
+}
+.section2 .second div.two h3{
+  color:#2370C8;
+  font-weight: bold;
+}
+.section2 .second div.two p{
+    font-size: normal;
+}
+.section2 .second div.two button{
+    background-color: #2370C8;
+    color: white;
+    border-radius: 30px;
+    padding: .8vh 1vw;
+    border: none;
+    margin-top: 2vh;
+}
+/* completed session 2 */
+.section3{
+    background-color: rgba(55, 130, 215, 0.9);
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section3>h2{
+    padding: 5vh 0vw;
+    color: white;
+    font-weight: bold;
+}
+.section3>div{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 13vh;
+    
+}
+.section3>div div{
+    width :30%;
+    max-height: 40vh;
+    color: white;
+    display: flex;
+    background-color: rgba(55, 130, 215, 0.5);
+    flex-direction: column;
+    align-items: center;
+    padding:5px;
+    
+    margin: 0vh 1vw;
+    
+}
+
+.section3>div div p{
+    font-size: 15px;
+    padding:5px 20px;
+   
+}
+.section3>div div *{
+    margin:1vh 0vw;
+}
+.eclipse1{
+    
+    padding: 18px;
+    border-radius: 100%;
+    background-color: #b0cee6;
+    margin-bottom: 8px;
+}
+.toggler{
+    position: fixed;
+    right:-20%;
+    padding-right:0;
+    margin-right: 0;
+}
+/* finished section3 */
+footer{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F9FF;
+}
+footer .links{
+    display: flex;
+}
+footer .links div{
+    width: 24%;
+    padding:2%;
+}
+footer .links div ul{
+    list-style: none;
+}
+footer .links div ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+footer .links div ul li a:hover{
+    color: #7AB8FF   ;
+}
+footer>div>div h2{
+    color: #2370C8;
+    font-weight: bold;
+}
+footer .links div button{
+    border: 1px solid #3782D7;
+    background-color: #F2F9FF;
+    padding: 10px;
+    border-radius: 100%;
+}
+footer .links div button:hover{
+    background-color:  #3782D7;
+}
+footer .line{
+    height: 1px;
+    width:98vw;
+    padding: 1px;
+    background-color:  #7AB8FF ;
+}
+.section2 .second button:hover{
+    
+    background-color: red;
+}
+#toggler{
+    display: none;
+}
+
+@media screen and (max-width:1024px){
+    .section1 .content{
+        top:5vh;
+        width: 60vw;
+        left:8vw;
+        padding-bottom: 15vh;
+    } 
+    
+
+.section3>div div{
+    padding-bottom: 30px;
+}
+   
+}
+@media screen and (max-width:1000px){
+    .section3>div div{
+        padding-bottom: 75px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .section1 .content{
+        
+        max-height:30vh;
+        width: 80vw;
+        top:5vh;
+        left:8vw;
+        padding-bottom: 26vh;
+    } 
+    .section1 .header ul,#unorderlist{
+        flex-direction: column;
+        width: 100%;
+        align-items: left;
+        padding-left:20px;
+        height: 60vh;
+        justify-content: space-around;
+         
+    }
+ 
+    .section1 .header ul li{
+        padding: 1vh 0vw;
+    }
+    .section2 div{
+        flex-direction: column;
+    }
+    .section2 .first div{
+        width: 80vw;
+        margin:1vh 0vw;
+        padding: 15px;
+    }
+    .section2 .second div{
+        width: 80vw;
+    }
+    .section3{
+        height: auto;
+    }
+    .section3>div{
+      flex-direction: column;
+    }
+    .section3>div div{
+        width: 80vw;
+        margin: 1vh 0vw;
+        padding-bottom: 8vh;
+    }
+   
+    footer>div{
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+    }
+    footer .links div{
+        width: 80%;
+        padding:2%;
+    }
+    .section1 header ul{
+        
+        flex-direction: column;
+        align-items: center;
+        font-size: 2.5vh;
+       
+        
+    }
+    .section1 header ul li{
+        padding-bottom: 2vh;
+    }
+    #unorderlist{
+        display: none;
+    }
+    #toggler{
+        display: inline;
+        position: relative;
+        left: 9vw;
+        
+    }
+   .section1 h3{
+       width: 100vw;
+       
+   }
+   .section1 h3 span{
+       padding-left: 50vw;
+   }
+   .section1 h3 a{
+       padding-left: 6vw;
+   }
+   .section1 input{
+       margin: 5vh auto;
+   }
+   /* .center,.center>ul{
+       display: flex;
+       flex-direction: column;
+       margin-right:auto;
+       margin-left:auto;
+   } */
+   /* .center1 {
+       align-items: center;
+   } */
+}

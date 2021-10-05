@@ -1,0 +1,22 @@
+:root{
+    --clr-primary:#F3EED9;
+    --clr-black:black;
+    --clr-brown:brown;
+}
+*,*::after,*::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+.bg-light{
+    background-color: var(--clr-primary);
+}
+.bg-black{
+    color: var(--clr-primary);
+    background-color: var(--clr-black);
+}
+.bg-brown{
+    background-color: var(--clr-brown);
+}
+.bg-black h2,.bg-brown{
+    color: var(--clr-primary);
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PlayStation</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="imgs/logo.png" class="logo">
+            <nav>
+                <ul id="menulist">
+                    <li><a href="#">Game Controllers</a></li>
+                    <li><a href="#">Vr Accesories</a></li>
+                    <li><a href="#">Media Remotes</a></li>
+                    <li><a href="#">Others</a></li>
+                </ul>
+            </nav>
+            <img src="imgs/menu.png" class="menu-icon" onclick="toggleMenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>PS4<br>DualShock 4</h2>
+                <h3>Wireless Controller for play station</h3>
+                <h4>$50.00</h4>
+                <button type="button">Buy Now<img src="imgs/arrow.png"></button>
+            </div>
+            <div class="col-2">
+                <img src="imgs/controller.png" class="controller">
+                <div class="colorbox"></div>
+            </div>
+        </div>
+        <div class="social-links">
+            <img src="imgs/fb.png">
+            <img src="imgs/tw.png">
+            <img src="imgs/ig.png">
+        </div>
+    </div>
+    <script>
+        var menuList=document.getElementById("menulist");
+        menuList.style.maxHeight="0px";
+        function toggleMenu(){
+        if(menuList.style.maxHeight=="0px"){
+            menuList.style.maxHeight="50vh" 
+        }else{
+            menuList.style.maxHeight="0px"
+        }
+    }
+    </script>
+</body>
+</html>

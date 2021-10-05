@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+    margin: 30px 0px;
+
+}
+.menu-icon{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: coral;
+}
+/* 
+finished navbar */
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+.col-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+.col-1 h2{
+    font-size: 50px;
+}
+.col-1 h3{
+    font-size: 30px;
+    color: #707070;
+    font-weight: 100;
+}
+.col-1 h4{
+   font-size: 30px;
+   color:#000;
+   font-weight: 300;
+   margin: 30px 0px;;
+}
+button{
+    width:100px;
+    border: 0;
+    padding:12px 10px;
+    outline: none;
+    color:#fff;
+    background: linear-gradient(to right,rgb(218, 151, 28),rgb(226, 80, 104));
+    border-radius: 5%;
+    transition: width 0.1s;
+}
+button img{
+    display: none;
+    width :50px;
+}
+button:hover img{
+    display: inline-block;
+}
+button:hover{
+    width:130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col-1::after
+{
+content: '';
+width: 10px;
+height: 50%;
+position: absolute;
+    background: linear-gradient(to right,rgb(218, 151, 28),rgb(226, 80, 104));
+    left: -40px;
+    top:0;
+}
+.col-2{
+    flex-basis: 60%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.col-2 .controller{
+    width:90%;
+}
+.colorbox{
+    position: absolute;
+    right: 0;
+    top:0; 
+    background: linear-gradient(to right,pink,rgb(189, 32, 58)90%,rgb(189, 33, 48));
+    height: 100%;
+    width: 80%;
+    border-radius: 10px;
+    transform: translate(60px);
+    z-index: -1;
+}
+.social-links{
+    text-align: center;
+}
+.social-links img{
+    height: 23px;
+    margin: 20px;
+    
+}
+
+@media screen and (max-width:700px){
+    nav ul{
+        width: 100%;
+        background: linear-gradient(to right,rgb(218, 151, 28),rgb(226, 80, 104)) ;
+        top: 75px;
+        position: absolute;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        text-align: center;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: inline-block;
+    }
+    #menulist{
+        overflow: hidden;
+        transition: 1s;
+    }
+    .row{
+        margin: 20px 0;
+        flex-direction: column-reverse;
+    }
+    .col-2{
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+}

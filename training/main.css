@@ -1,0 +1,393 @@
+*{
+  margin: 0;
+  padding: 0;
+  border:0;
+  font-family: 'Open Sans', sans-serif;
+}
+h1{
+  font-size: 36px;
+}
+h2{
+  font-size: 32px;
+}
+h3{
+  font-size: 28px;
+  }
+h4{
+    font-size: 24px;
+  }
+h5{
+    font-size: 20px;
+  }
+h6{
+    font-size: 16px;
+  }
+  main {
+    display: flex;
+  
+  }
+.navbar{
+    display: flex;
+    width:20%;
+    flex-direction: column;
+    background: linear-gradient(106.08deg, #00199F 0%, #003D71 84.07%);
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around;
+}
+.navbar h2 a{
+    width:10%;
+    color:white;
+  display: block;
+  padding-top: 30px;
+
+}
+.navbar button{
+  width: 76%;
+}
+.navbar nav{
+    flex:1;
+}
+.navbar nav ul  {
+    list-style: none;
+    padding-top: 8%;
+    height:100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.navbar nav ul li{
+    padding-top :20px;
+
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar nav ul li:hover a {
+  color: red;
+}
+
+.navbar .create {
+  padding: 10px;
+  background-color: white;
+  color: black;
+  width: 50%;
+  margin: 10px;
+  border-radius:10px;
+}
+.navbar .hide{
+  padding-bottom: 18px;
+  padding-top: 5px;
+  font-size: 18px;
+  background: transparent;
+  color: white;
+  margin: 10px;
+  border-radius: 10px;
+}
+.navbar .line{
+  width: 80%;
+  height:.3px;
+  text-align: center; 
+  background-color: white;
+}
+hr{
+  width: 2px;
+  color: black;
+}
+li i{
+  color: white;
+  padding: 5px;
+}
+.primary{
+padding: 10px 40px 10px 40px;
+background-color: white;
+color:black;
+margin:20px;
+border-radius: 10px;
+font-weight: bold;
+}
+.logo a{
+  color: white;
+  font-weight: normal;
+  text-decoration:none;
+}
+
+
+.body{
+  position: absolute;
+  left: 20%;
+  height: 100vh;
+  width: 80%;
+  flex-direction: column;
+}
+.body header{
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: #EFF2F3;
+  align-items: center;
+
+}
+header *{
+  padding-right: 1.5%;
+}
+header h3{
+  display: none;
+}
+header .search{ 
+  
+  width: 60%;
+  display: flex;
+  align-items: center;
+  background-color: #EFF2F3;
+}
+header .search input{
+  outline: none;
+}
+header .user-profiles{
+  background-color: #EFF2F3;
+}
+header input{
+  height: 7vh;
+  background-color: #EFF2F3;
+}
+.myprofile{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
+    margin-left: 30px;
+}
+.myprofile img{
+  width: 20%;
+  height: 100%;
+  border-radius: 100%;
+    
+}
+
+
+
+.bodypart{
+  padding: 0;
+  height: 80vh;
+  margin-top: 3vh;
+}
+.bodypart .line1{
+  display: flex;
+  height: 8vh;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.bodypart .line1 h1{
+  margin-left: 2vw;
+  font-size: 23px;
+  font-weight: 600;
+}
+.bodypart .line1 button{
+  border-radius: 10px;
+    border: 1px solid #003d71;
+    background-color: white;
+    color: #003d71;
+    font-weight: 600;
+    height: 6vh;
+    margin-right: 2vw;
+    padding: 0vh 5vw;
+}
+.bodypart .image{
+  height: 32vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bodypart .image img{
+  width: 90%;
+  height: 90%;
+  border-radius: 10px; 
+}
+.bodypart .image1{
+  position: relative;
+  height: 32vh;
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin-left:5%;
+  
+}
+.bodypart .image1 img{
+  width: 32%;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.bodypart .bottom{
+  height: 7vh;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-bottom: 0;
+}
+.bodypart .bottom button{
+  height: 6vh;
+  border-radius: 10px;
+  border: 1px solid #003d71;
+  background-color: #003d71;
+  color: white;
+  font-weight: 600;
+  padding: 1vh 4vw;
+  margin-right: 2vw;
+  margin-top: .5vh;
+
+}
+
+
+ .row3 {
+  height: 7vh;
+  width:100%;
+  background: linear-gradient(106.08deg, #00199F 0%, #003D71 84.07%);
+  display: flex;
+  color: white;
+  align-items: center;
+}
+.row3 p{
+  align-items: flex-start;
+  padding-left: 2%;
+  
+}
+.row3 ul {
+  display: flex;
+  list-style: none;
+  flex:1;
+  padding-left: 30%;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+.row3 ul li{
+  font-size: 15px;
+}
+.row3 ul li a{
+  color: white;
+  text-decoration: none;
+}
+.row3 ul li a:hover{
+  color: red;
+}
+.row3 p{
+  font-size: 13px;
+}
+.row3 ul li:hover{
+  color: red;
+}
+.top-left{
+  position: absolute;
+   top:2.5vh;
+   left:5vw;
+  color: aliceblue;
+}
+.top-left1  {
+  position: absolute;
+   top:1vh;
+   left:2%;
+   color: aliceblue;
+}
+.top-left2  {
+  position: absolute;
+   top:1vh;
+   left:35%;
+   color: aliceblue;
+}
+.top-left3  {
+  position: absolute;
+   top:1vh;
+   left:68%;
+   color: aliceblue;
+}
+main.panelClose .navbar{
+  width: 0%;
+}
+main.panelClose .body{
+  width: 100%;
+  height: inherit;
+  left:0%;
+  padding: 0;
+  margin: 0;
+}
+
+
+@media screen and (max-width:770px) {
+  .navbar{
+    width:100%;
+    z-index: 1;
+    
+  }
+  .body{
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+  }
+  header h3{
+    display: inline;
+  }
+  
+  header{
+    min-height: 130px;
+    flex-direction: column;
+    padding-bottom: 20px;
+    justify-content: space-around;
+  }
+  .bodypart .image1{
+    flex-direction: column;
+    height: auto;
+
+  }
+  .bodypart .image1 img{
+    width:100%;
+    height:150px;
+    padding-bottom: 2vh;
+  }
+  .row3 {
+    height: auto;
+    position: relative;
+    top:290px;  
+    flex-direction: column;
+  }
+  .row3 ul{
+    flex-direction: column;
+    position: relative;
+    left: -15vw;
+  }
+  .row3 *{
+    padding :3px 0px;
+  }
+  .top-left1  {
+    position: absolute;
+     top:1vh;
+     left:2%;
+     color: aliceblue;
+  }
+  .top-left2  {
+    position: absolute;
+     top:170px;
+     left:2%;
+     color: aliceblue;
+  }
+  .top-left3  {
+    position: absolute;
+     top:335px;
+     left:2%;
+     color: aliceblue;
+  }
+  .myprofile{
+    position: relative;
+    left: -10%;
+  }
+ 
+  main.panelClose .navbar{
+    width: 0;
+    z-index: 0;
+  }
+  
+  
+}

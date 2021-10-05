@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+main{
+    width: auto;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.section1{
+    height: auto;
+    background: linear-gradient(100.72deg, #122E99 -12.83%, #2370C8 104.22%);
+    font-weight: 500;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.section1 nav ul{
+    margin: 0 auto;
+}
+.section1 nav ul li{
+    font-size: 15px;
+}
+.section1 nav a{
+    color: white;
+}
+.section1 nav ul li a:hover{
+    
+    text-decoration: underline;
+}
+.section1 .content h2{
+    font-weight: bold;
+    font-size: 43px;
+}
+.fa-search{
+    position: relative;
+    right:30px;
+    color: #4995ec;
+
+}
+
+.section1  input{
+    border: transparent;
+    outline: none;
+    border-radius: 30px;
+    height: 5vh;
+    padding: 0vh .5vw;
+}
+
+
+.section1  input::placeholder{
+    color: #4995ec;
+    
+    padding: 0vh .5vw;
+}
+.section1 .content{
+    padding-top:10vh;
+    padding-left:15vw;
+    padding-bottom: 20vh;
+}
+.section1 .content h2,div,button{
+    padding: 1vh 0;
+
+}
+
+.section1 .content button{
+    border-radius: 30px;
+}
+.section1 input{
+    border-radius: 30px;
+     
+}
+   
+.section1 input::placeholder{
+    color: #2370C8;
+}
+.section1  a.navbar-brand{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 4vh;
+}
+.section2{
+    height: auto;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12vh;
+    font-weight: 500;
+}
+.section2>p{
+    color: #2370C8;
+    font-size: 18px;
+    font-weight: bold;
+}
+.section2>h2 span{
+    margin-left: 6vw;
+}
+.section2>h2{
+    color: #262A4E;
+    font-size: 30px;
+    padding:2vh 0vw;
+    font-weight: 500;
+}
+.section2 .row{
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+}
+.section2 div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.section2 .row div{
+   
+    border: transparent;
+    background-color: #E5F3FE;
+    margin:2vh auto;
+    padding: 35px 25px;    
+}
+.section2 .row div p{
+    padding: 10px;
+}
+.section2 .row div h3{
+    font-size: 25px;
+}
+.section2 .row div eclipse,eclipse{
+    height: 10px;
+    width: 10px;
+    padding: 20px;
+    border-radius: 100%;
+    background-color: #b0cee6;
+}
+
+.section2>h2 button{
+    border: 1.5px solid #898989;
+    background-color: #E0E0E0;
+    color: white;
+    border-color: transparent;
+    font-size:20px;
+    margin-left: .5vw;
+    padding:2px 5px;
+    border-radius: 100%;
+}
+.section2>h2 button:hover{
+    background-color: #2370C8;
+}
+.section2 .second{
+    
+    align-items: center;
+
+}
+.section2 .second div{
+    
+    margin: 3vh 1vw;
+}
+
+.section2 .second div.one{
+    background-color: #2370C8;
+    color: white;
+    
+}
+.section2 .second div h3,h2,p,li,button{
+    padding: 0.5vh 0vw;
+}
+.section2 .second div.one ul{
+    list-style: none;
+}
+.section2 .second div.one button{
+    color: #2370C8;
+    
+    border-radius: 30px;
+
+}
+.section2 .second div.two{
+    align-items: flex-start;
+    background-color: #fff;
+    
+}
+.section2 .second div.two h3{
+  color:#2370C8;
+  font-weight: bold;
+}
+.section2 .second div.two p{
+    font-size: normal;
+}
+.section2 .second div.two button{
+    background-color: #2370C8;
+    color: white;
+    border-radius: 30px;
+    padding: .8vh 1vw;
+    border: none;
+    margin-top: 2vh;
+}
+.section3{
+    background-color: rgba(55, 130, 215, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.section3>h2{
+    padding: 5vh 0vw;
+    color: white;
+    font-weight: bold;
+}
+.section3 .row{
+    display: flex;
+    justify-content: space-evenly;
+   margin: 3vh 0vw;
+    padding-bottom: 5vh;
+}
+.section3 .row div{
+    color: white;
+    display: flex;
+    background-color: rgba(55, 130, 215, 0.5);
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    
+    
+}
+.section3>div div p{
+    font-size: 15px;
+    padding: 10px;
+}
+.section3>div div *{
+    margin:1vh 0vw;
+}
+.eclipse1{
+    
+    padding: 18px;
+    border-radius: 100%;
+    background-color: #b0cee6;
+    margin-bottom: 8px;
+}
+.footer{
+    height: 70%;
+    box-sizing: border-box;
+    background-color: #F2F9FF;
+    padding: 10px;
+}
+
+.footer .row div ul{
+    list-style: none;
+}
+.footer .row div ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+.footer .row div ul li a:hover{
+    color: #7AB8FF   ;
+}
+.footer>div>div h2{
+    color: #2370C8;
+    font-weight: bold;
+}
+.footer .row div button{
+    border: 1px solid #3782D7;
+    background-color: #F2F9FF;
+    padding: 10px;
+    border-radius: 100%;
+    outline: none;
+}
+.footer .row div button:hover{
+    background-color:  #3782D7;
+
+}
+.footer .line{
+    height: 1px;
+    width:100%;
+    padding: 0;
+    background-color:  #7AB8FF ;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+button{
+    outline: none;
+}
+@media screen and (max-width:767px){
+   
+    .section2 .row div{
+        margin:1vh auto;
+    }
+    .section3>div>div{
+        margin: 2vh 0vw;
+    
+    }
+
+}

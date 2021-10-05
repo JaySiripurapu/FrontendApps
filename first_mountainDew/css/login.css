@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(to right, #181717 0%, #bbc1bf 19%, #11d32b 42%, #c2beca 79%, #101111 100%);
+    
+}
+.login-form{
+    text-align: center;
+    background-color: black;
+    width:50%;
+    height: 50%;
+    top:25%;
+    left:25%;
+    position: absolute;
+    transform: translate(50);
+}
+.login-form input{
+    background: transparent;
+    border: 1px solid green;
+    width: 70%;
+    height:40px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color:bisque;   
+    font-size: large;
+}
+.login-form input:hover{ 
+    background: #11d32b;
+    width: 75%;
+    
+transition: .5s;
+}
+.login-form input[type="button"]{
+    margin-top: 2%;
+    width:15%;
+    color: black;
+    height: 30px;
+    background-color:#11d32b ;
+    border-color: transparent;
+    border-radius: 10%;
+}
+
+@media screen and (max-width: 606px) {
+    .login-form{
+      
+      width: 100vw;
+      height: 100vh; 
+      top:0%;
+    left:0%;
+    }
+    .login-form img{
+        padding-top: 25vh;
+    }
+    
+}

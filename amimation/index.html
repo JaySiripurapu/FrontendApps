@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #Square{
+            width:600px;
+            height:600px;
+            position: relative;
+            background-color: black;
+        }
+        #circle{
+            width: 50px;
+            height:50px;
+            position: absolute;
+            background-color: bisque;
+            border-radius: 50%;
+            top:550px;
+        }
+    </style>
+</head>
+<body>
+    <div id="Square">
+        <div id="circle"></div>
+    </div>
+    <button onclick="anim()">move</button>
+    <script>
+      function  anim(){
+          console.log("clicked")
+            var cir=document.getElementById("circle");
+            var pos=550;
+            var time=setInterval(newFun,10);
+            function newFun(){
+                if(pos==0){
+                    clearInterval(time);
+                }
+                else{
+                    pos--;
+                    cir.style.top=pos+"px";
+                    cir.style.right=pos+"px";
+
+                }
+            }
+        }
+    </script>
+</body>
+</html>
